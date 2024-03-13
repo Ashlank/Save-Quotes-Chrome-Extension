@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Save your favourites quotes",
+  "version": "1.0.0",
+  "description": "Save your favourites quotes, just selecting the text",
+  "icons": {
+    "128": "./images/icon.png"
+  },
+  "action": {
+    "default_title": "Click to show your saved quotes",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "permissions": ["scripting", "activeTab", "storage"],
+  "commands": {
+    "save-script": {
+      "suggested_key": "Ctrl+Shift+S",
+      "description": "Run to save a selected quote"
+    }
+  }
+}
