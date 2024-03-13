@@ -4,7 +4,7 @@ Creado utilizando Javascript, HTML y CSS
 
 ## Descripción
 
-La extensión permite guardar frases o texto de cualquier sitio web simplemente seleccionandolo y oprimiendo la combinación de teclas Ctrl+Shift+S
+La extensión permite guardar frases o texto de cualquier sitio web simplemente seleccionandolo y oprimiendo la combinación de teclas Ctrl+Shift+S.
 Las frases guardadas pueden verse en una ventana Popup que aparece al clickear el ícono de la extensión en la barra de extensiones
 
 ### Características
